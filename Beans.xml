@@ -26,4 +26,21 @@
         <!--<property name="message" value="Hello World!"/>-->
     </bean>
 
+    <bean id="myHello"
+          class="com.ampthon.event.MyHello">
+        <property name="message" value="My Hello World!"/>
+    </bean>
+
+    <bean id="cStartEventHandler"
+          class="com.ampthon.event.CStartEventHandler"/>
+
+    <bean id="cStopEventHandler"
+          class="com.ampthon.event.CStopEventHandler"/>
+
+    <bean id="customEventHandler"
+          class="com.ampthon.event.CustomEventHandler"/>
+
+    <bean id="customEventPublisher"
+          class="com.ampthon.event.CustomEventPublisher"/>
+
 </beans>
